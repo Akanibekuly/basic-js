@@ -4,7 +4,7 @@ module.exports = function transform(arr) {
   if(!Array.isArray(arr)){
     throw "THROWN";
   }
-  console.log(arr);
+  // console.log(arr);
   var arr1=[...arr]
   for(var i=0;i<arr1.length;i++){
     switch(arr1[i]){
